@@ -18,6 +18,8 @@ def save_pomodoro():
 
 def main():
     while True:
+        print("now get back to work! (ctrl-c to exit)")
+        input("pause: ")
         for minutesleft in range(WORKLENGTH, 0, -1):
             print("work for {} minutes".format(minutesleft))
             time.sleep(60)
@@ -27,7 +29,5 @@ def main():
         for minutesleft in range(BREAKLENGTH, 0, -1):
             print("break for {} minutes".format(minutesleft))
             time.sleep(60)
-        print("now get back to work! (ctrl-c to exit)")
-        input("pause: ")
 
 if __name__ == "__main__": main()
