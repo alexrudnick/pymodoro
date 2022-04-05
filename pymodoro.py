@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-WORKLENGTH = 25 # time in minutes
+WORKLENGTH = 15 # time in minutes
 BREAKLENGTH = 5 # time in minutes
 PYMODORO_DIR = "pymodoro"
 DATETIMEFORMAT = "%Y-%m-%d %H:%M"
